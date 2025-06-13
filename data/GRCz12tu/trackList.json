@@ -10,7 +10,7 @@
          "chunkSize" : 80000,
          "key" : "Reference sequence",
          "label" : "DNA",
-         "storeClass" : "JBrowse/Store/Sequence/BgzipIndexedFasta",
+         "storeClass" : "JBrowse/Store/SeqFeature/BgzipIndexedFasta",
          "type" : "SequenceTrack",
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_049306965.1_GRCz12tu_genomic.fna.gz"
       },
