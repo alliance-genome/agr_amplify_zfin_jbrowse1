@@ -35,6 +35,14 @@
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_genes.gff3.gz"
       },
       {
+         "key" : "RefSeq transcripts",
+         "label" : "RefSeq transcripts",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/refseq.grcz12.gff3.gz"
+      },
+      {
          "compress" : 1,
          "key" : "Transcript",
          "label" : "Transcript",
