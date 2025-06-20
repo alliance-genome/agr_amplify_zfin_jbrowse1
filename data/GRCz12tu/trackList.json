@@ -40,6 +40,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
+         "topLevelFeatures" : "mRNA",
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/refSeq.GRCz12.zfin.sorted.gff3.gz"
       },
       {
