@@ -32,6 +32,7 @@
          "glyph" : "JBrowse/View/FeatureGlyph/Box",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
+         "glyph" : "ProcessedTranscript",
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_genes.gff3.gz"
       },
       {
