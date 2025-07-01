@@ -45,6 +45,14 @@
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/refSeq.GRCz12.zfin.sorted.gff3.gz"
       },
       {
+         "key" : "Full RefSeq GFF",
+         "label" : "Full RefSeq GFF",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/GCF_049306965.1_GRCz12tu_genomic.gff.sorted.gz"
+      },
+      {
          "compress" : 1,
          "key" : "Transcript",
          "label" : "Transcript",
