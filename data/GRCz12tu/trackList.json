@@ -43,7 +43,7 @@
          "type" : "CanvasFeatures",
          "topLevelFeatures" : "mRNA",
          "glyph" : "JBrowse/View/FeatureGlyph/ProcessedTranscript",
-         "maxHeight": 3000,
+         "maxHeight": 6000,
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/refSeq.GRCz12.zfin.sorted.gff3.gz"
       },
       {
