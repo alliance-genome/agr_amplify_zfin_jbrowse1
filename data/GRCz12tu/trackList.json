@@ -29,10 +29,11 @@
          },
          "fmtDetailField_Id" : "function(name) {return null;}",
          "fmtDetailField_Curie" : "function(name) {return null;}",
+         "maxHeight": 3000,
          "glyph" : "JBrowse/View/FeatureGlyph/Box",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_genes.gff3.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_genes.GRCz12.sorted.gff3.gz"
       },
       {
          "key" : "RefSeq transcripts",
@@ -42,6 +43,7 @@
          "type" : "CanvasFeatures",
          "topLevelFeatures" : "mRNA",
          "glyph" : "JBrowse/View/FeatureGlyph/ProcessedTranscript",
+         "maxHeight": 3000,
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/refSeq.GRCz12.zfin.sorted.gff3.gz"
       },
       {
