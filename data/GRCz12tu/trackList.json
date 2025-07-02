@@ -29,7 +29,7 @@
          },
          "fmtDetailField_Id" : "function(name) {return null;}",
          "fmtDetailField_Curie" : "function(name) {return null;}",
-         "maxHeight": 3000,
+         "maxHeight": 6000,
          "glyph" : "JBrowse/View/FeatureGlyph/Box",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
