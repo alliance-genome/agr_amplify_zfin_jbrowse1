@@ -52,6 +52,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
+         "maxHeight": 7000,
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/GCF_049306965.1_GRCz12tu_genomic.gff.sorted.gz"
       },
       {
