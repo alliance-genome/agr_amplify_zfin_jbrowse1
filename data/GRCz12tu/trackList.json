@@ -53,6 +53,9 @@
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "maxHeight": 7000,
+         "style" : {
+            "label" : "function(f){ var type = f.get('type'); var pattern = /RNA|transcript/; if (pattern.test(type)) {return f.get('transcript_id')} return f.get('gene'); }"
+         },
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/GCF_049306965.1_GRCz12tu_genomic.gff.sorted.gz"
       },
       {
