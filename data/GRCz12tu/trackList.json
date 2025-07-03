@@ -54,8 +54,7 @@
          "type" : "CanvasFeatures",
          "maxHeight": 7000,
          "style" : {
-            "transcriptLabel" : "function(f) { return f.get('transcript_id');  }",
-            "label" : "function(f) { console.log(f); return f.get('type')==='mRNA'?f.get('transcript_id'):f.get('gene');"
+            "label" : "function(f) { console.log(f); return f.get('type')==='mRNA'?f.get('transcript_id'):f.get('gene');}"
          },
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/GCF_049306965.1_GRCz12tu_genomic.gff.sorted.gz"
       },
