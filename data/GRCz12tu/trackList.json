@@ -43,7 +43,8 @@
          "type" : "CanvasFeatures",
          "maxHeight": 7000,
          "style" : {
-            "label" : "{ID}"
+            "label" : "id,transcript_id",
+            "description" : "product"
          },
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_refSeq.GRCz12.sorted.gff3.gz"
       },
