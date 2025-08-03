@@ -36,14 +36,14 @@
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_genes.GRCz12.sorted.gff3.gz"
       },
       {
-         "key" : "Full RefSeq GFF",
-         "label" : "Full RefSeq GFF",
+         "key" : "RefSeq",
+         "label" : "RefSeq",
          "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "maxHeight": 7000,
          "style" : {
-            "label" : "function(f) { console.log(f); return f.get('type')==='mRNA'?f.get('transcript_id'):f.get('gene');}"
+            "label" : "{ID}"
          },
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_refSeq.GRCz12.sorted.gff3.gz"
       },
