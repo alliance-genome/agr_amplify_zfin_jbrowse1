@@ -1,5 +1,9 @@
 {
    "formatVersion" : 1,
+   "names" : {
+      "type" : "Hash",
+      "url" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/names/"
+   },
    "plugins" : [
       "HideTrackLabels"
    ],
@@ -8,16 +12,17 @@
    "tracks" : [
       {
          "chunkSize" : 80000,
+         "compress" : 1,
          "key" : "Reference sequence",
          "label" : "DNA",
-         "storeClass" : "JBrowse/Store/SeqFeature/BgzipIndexedFasta",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/fasta/GCF_049306965.1_GRCz12tu_genomic.fna.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/seq/{refseq_dirpath}/{refseq}-"
       },
       {
          "key" : "ZFIN Gene",
          "label" : "ZFIN Gene",
-         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
             "color" : "#088080"
@@ -33,20 +38,20 @@
          "glyph" : "JBrowse/View/FeatureGlyph/Box",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_genes.GRCz12.sorted.gff3.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/ZFIN_Gene/{refseq}/trackData.jsonz"
       },
       {
          "key" : "RefSeq",
          "label" : "RefSeq",
-         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "maxHeight": 7000,
          "style" : {
             "label" : "id,transcript_id",
-            "description" : "product"
+            "description" : "{product}"
          },
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/zfin_refSeq.GRCz12.sorted.gff3.gz"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/RefSeq/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
