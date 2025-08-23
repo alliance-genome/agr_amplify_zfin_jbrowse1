@@ -51,7 +51,7 @@
             "label" : "id,transcript_id",
             "description" : "{product}"
          },
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tutracks/RefSeq/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/RefSeq/{refseq}/trackData.jsonz"
       }
    ]
 }
