@@ -52,6 +52,42 @@
             "description" : "{product}"
          },
          "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/RefSeq/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Zebrafish Mutation Project",
+         "label" : "Zebrafish Mutation Project",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "#800080"
+         },
+         "onClick"  : {
+             "label": "{name} page at ZFIN",
+             "action": "newWindow",
+             "url": "function(track,f) {var zdbid = f.get('zdb_id');  return 'http://zfin.org/' + zdbid;}"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/Zebrafish_Mutation_Project/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "ZFIN Features",
+         "label" : "ZFIN Features",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "#800080"
+         },
+         "onClick"  : {
+             "label": "{name} page at ZFIN",
+             "action": "newWindow",
+             "url": "function(track,f) {var zdbid = f.get('zdb_id');  return 'http://zfin.org/' + zdbid;}"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/zfin/GRCz12tu/tracks/ZFIN_Features/{refseq}/trackData.jsonz"
       }
    ]
 }
